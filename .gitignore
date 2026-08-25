@@ -1,0 +1,71 @@
+# ===== 依赖与构建产物 =====
+node_modules/
+.next/
+out/
+dist/
+
+# ===== 环境变量与密钥（绝对不能提交！）=====
+.env
+.env.local
+.env.*.local
+.env.production
+.env.development
+
+# ===== 数据库与备份（含历史玩家数据、汤池、举报记录，绝对不能提交！）=====
+data/
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.db-wal
+*.db-shm
+*.db.gz
+*.sha256
+turtle_soup_backup_*.db
+turtle-soup-env-backup.txt
+turtle-soup-snapshot-*.tar.gz
+
+# ===== 部署打包临时文件 =====
+turtle-soup.tar.gz
+*.tar
+*.tar.gz
+*.zip
+
+# ===== 临时测试脚本（之前写的 test-*.js 等）=====
+test-*.js
+verify-*.js
+tmp-*.js
+
+# ===== 运行日志 =====
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+pm2-*.log
+pm2*.pid
+
+# ===== 编辑器 & 系统垃圾 =====
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ===== IDE =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+*.sublime-project
